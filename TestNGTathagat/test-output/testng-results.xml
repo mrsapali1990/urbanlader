@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="10" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-06T15:41:38 IST" name="Loan Department" finished-at="2023-01-06T15:41:38 IST" duration-ms="682">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1.demo()[pri:0, instance:annotation.Day1@1d119efb]" name="demo" class="annotation.Day1"/>
+        <method signature="Day4.loginAPIHomeLoan()[pri:0, instance:annotation.Day4@be64738]" name="loginAPIHomeLoan" class="annotation.Day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-01-06T15:41:38 IST" name="Personal Loan" finished-at="2023-01-06T15:41:38 IST" duration-ms="197">
+      <class name="annotation.Day4">
+        <test-method signature="loginAPIHomeLoan()[pri:0, instance:annotation.Day4@be64738]" started-at="2023-01-06T15:41:38 IST" name="loginAPIHomeLoan" finished-at="2023-01-06T15:41:38 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPIHomeLoan -->
+        <test-method signature="mobileLoginHomeLoan()[pri:0, instance:annotation.Day4@be64738]" started-at="2023-01-06T15:41:38 IST" name="mobileLoginHomeLoan" finished-at="2023-01-06T15:41:38 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method signature="webLoginHomeLoan()[pri:0, instance:annotation.Day4@be64738]" started-at="2023-01-06T15:41:38 IST" name="webLoginHomeLoan" finished-at="2023-01-06T15:41:38 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+      </class> <!-- annotation.Day4 -->
+      <class name="annotation.Day2">
+        <test-method is-config="true" signature="preRequiste()[pri:0, instance:annotation.Day2@6f96c77]" started-at="2023-01-06T15:41:38 IST" name="preRequiste" finished-at="2023-01-06T15:41:38 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequiste -->
+        <test-method signature="methode2()[pri:0, instance:annotation.Day2@6f96c77]" started-at="2023-01-06T15:41:38 IST" name="methode2" finished-at="2023-01-06T15:41:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methode2 -->
+      </class> <!-- annotation.Day2 -->
+      <class name="annotation.Day1">
+        <test-method signature="demo()[pri:0, instance:annotation.Day1@1d119efb]" started-at="2023-01-06T15:41:38 IST" name="demo" finished-at="2023-01-06T15:41:38 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="lastExecute()[pri:0, instance:annotation.Day1@1d119efb]" started-at="2023-01-06T15:41:38 IST" name="lastExecute" finished-at="2023-01-06T15:41:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecute -->
+      </class> <!-- annotation.Day1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2023-01-06T15:41:38 IST" name="car loan" finished-at="2023-01-06T15:41:38 IST" duration-ms="93">
+      <class name="annotation.Day3">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:annotation.Day3@68999068]" started-at="2023-01-06T15:41:38 IST" name="beforeClass" finished-at="2023-01-06T15:41:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:annotation.Day3@68999068]" started-at="2023-01-06T15:41:38 IST" name="beforeTest" finished-at="2023-01-06T15:41:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="mobileSignOutCarLoan()[pri:0, instance:annotation.Day3@68999068]" started-at="2023-01-06T15:41:38 IST" name="mobileSignOutCarLoan" finished-at="2023-01-06T15:41:38 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignOutCarLoan -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:annotation.Day3@68999068]" started-at="2023-01-06T15:41:38 IST" name="afterTest" finished-at="2023-01-06T15:41:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:annotation.Day3@68999068]" started-at="2023-01-06T15:41:38 IST" name="beforeTest" finished-at="2023-01-06T15:41:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="webLoginCarLoan(java.lang.String)[pri:0, instance:annotation.Day3@68999068]" started-at="2023-01-06T15:41:38 IST" name="webLoginCarLoan" finished-at="2023-01-06T15:41:38 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:annotation.Day3@68999068]" started-at="2023-01-06T15:41:38 IST" name="afterTest" finished-at="2023-01-06T15:41:38 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:annotation.Day3@68999068]" started-at="2023-01-06T15:41:38 IST" name="afterClass" finished-at="2023-01-06T15:41:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="bfSuite()[pri:0, instance:annotation.Day3@68999068]" started-at="2023-01-06T15:41:38 IST" name="bfSuite" finished-at="2023-01-06T15:41:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfSuite -->
+      </class> <!-- annotation.Day3 -->
+      <class name="annotation.Day1">
+        <test-method is-config="true" signature="bfSuite()[pri:0, instance:annotation.Day1@1d119efb]" started-at="2023-01-06T15:41:38 IST" name="bfSuite" finished-at="2023-01-06T15:41:38 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfSuite -->
+      </class> <!-- annotation.Day1 -->
+    </test> <!-- car loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

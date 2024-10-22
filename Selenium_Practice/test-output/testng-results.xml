@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-10T12:54:26 IST" name="Default suite" finished-at="2023-07-10T12:54:26 IST" duration-ms="305">
+    <groups>
+    </groups>
+    <test started-at="2023-07-10T12:54:26 IST" name="Default test" finished-at="2023-07-10T12:54:26 IST" duration-ms="305">
+      <class name="DataProvider.TestClass">
+        <test-method signature="dataprovider(java.lang.String,java.lang.String)[pri:0, instance:DataProvider.TestClass@1cbbffcd]" started-at="2023-07-10T12:54:26 IST" name="dataprovider" data-provider="dataForTest" finished-at="2023-07-10T12:54:26 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwprd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataprovider -->
+        <test-method signature="dataprovider(java.lang.String,java.lang.String)[pri:0, instance:DataProvider.TestClass@1cbbffcd]" started-at="2023-07-10T12:54:26 IST" name="dataprovider" data-provider="dataForTest" finished-at="2023-07-10T12:54:26 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwprd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataprovider -->
+        <test-method signature="dataprovider(java.lang.String,java.lang.String)[pri:0, instance:DataProvider.TestClass@1cbbffcd]" started-at="2023-07-10T12:54:26 IST" name="dataprovider" data-provider="dataForTest" finished-at="2023-07-10T12:54:26 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwprd3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataprovider -->
+      </class> <!-- DataProvider.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

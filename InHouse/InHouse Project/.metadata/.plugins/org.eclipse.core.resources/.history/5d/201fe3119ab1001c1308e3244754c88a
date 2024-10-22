@@ -1,0 +1,9 @@
+package com.sn.utilities;
+
+public class Listener {
+	
+public void onTestSuccess(ITestResult result) {
+		
+	}
+
+}

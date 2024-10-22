@@ -1,0 +1,36 @@
+package com.sn.Pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.sn.Commons.TestBase;
+
+public class IncidentCreate extends TestBase{
+
+	@FindBy(id = "sysverb_new")
+	WebElement CreateNewIncident;
+	
+	@FindBy(id = "sys_display.incident.caller_id")
+	WebElement Caller;
+	
+	@FindBy (id = "incident.category")
+	WebElement Category;
+	
+	@FindBy (id = "incident.subcategory")
+	WebElement SubCategory;
+	
+	@FindBy(id = "sys_display.incident.business_service")
+	WebElement Service;
+	
+	@FindBy(id = "sys_display.incident.service_offering")
+	WebElement ServiceOffering;
+	
+	@FindBy(id = "sys_display.incident.cmdb_ci")
+	WebElement ConfigurationItem;
+	
+	@FindBy(id = "incident.short_description")
+	WebElement ShortDescription;
+	
+	
+	
+}

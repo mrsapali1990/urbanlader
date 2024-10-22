@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="handlingMouse.MouseandKeyboard"/>
+      <class name="org.apache.commons.io.ImageComparisonPositive"/>
+      <class name="org.apache.commons.io.screenShot1"/>
+      <class name="testing.GmailImageTest"/>
+      <class name="testing.LoginTest"/>
+      <class name="testing.parallelTest"/>
+      <class name="testing.groupGmail"/>
+      <class name="testing.parallelTest1"/>
+      <class name="asserta.TestNg"/>
+      <class name="testing.GmailPriority"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

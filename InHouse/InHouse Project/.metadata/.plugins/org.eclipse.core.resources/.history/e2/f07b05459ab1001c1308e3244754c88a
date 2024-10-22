@@ -1,0 +1,11 @@
+package com.sn.utilities;
+
+import org.testng.ITestResult;
+
+public class Listener {
+	
+public void onTestSuccess(ITestResult result) {
+		
+	}
+
+}

@@ -1,0 +1,41 @@
+package com.sn.Pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.sn.Commons.TestBase;
+
+public class ChildIncident extends TestBase{
+	
+	@FindBy(linkText = "Inquiry / Help")
+	WebElement Incidentlink;
+	
+	@FindBy(xpath = "//*[@id=\"section-bf1d96e3c0a801640190725e63f8ac80.header\"]/nav/div/div[1]/button[2]")
+	WebElement IncidentOptions;
+	
+	@FindBy(linkText = "Create Child Incident")
+	WebElement CreateChildIncident;
+	
+	@FindBy(id = "sys_display.incident.caller_id")
+	WebElement ChildCallerid;
+	
+	@FindBy(id = "incident.short_description")
+	WebElement childshortdescription;
+	
+	@FindBy(id = "sysverb_insert_bottom")
+	WebElement ChildShortDescription;
+	
+	public ChildIncident()
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void CreateChildIncident() throws InterruptedException
+	{
+		Incidentlink.click();
+	    System.out.println("Incident link clicked");
+	    Thread.sleep(3000);
+	}
+
+}

@@ -1,0 +1,5 @@
+#url = https://dev109304.service-now.com/
+url = https://signon.service-now.com/x_snc_sso_auth.do
+
+un = cogniwize.demo@gmail.com
+pass = Servicenow@123

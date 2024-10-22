@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="23.408">
+    <testcase classname="Add Edit Delete Skill" name="Add Skill" time="10.209">
+        <failure message="Unable to establish websocket connection to http://localhost:52659/devtools/browser/37099178-3e8e-44d5-b31c-666a53074a06&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'DESKTOP-T7QCDAB', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException"><![CDATA[Given User Launch chrome Browser............................................skipped
+When User open URL "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".skipped
+And User enter email as "Admin" and password as "admin123"..................skipped
+And User click on Login.....................................................skipped
+And User should have his name in welcome note...............................skipped
+When User open URL "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSkills".skipped
+And user click on Add.......................................................skipped
+And User Enters skill name..................................................skipped
+And User click on save button...............................................skipped
+Then Skill should be added skill button.....................................skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:52659/devtools/browser/37099178-3e8e-44d5-b31c-666a53074a06
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-T7QCDAB', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:104)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:137)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:118)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:124)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:122)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+	at StepDefinations.LoginSteps.setup(LoginSteps.java:26)
+]]></failure>
+    </testcase>
+    <testcase classname="Add Edit Delete Skill" name="Edit Skill" time="5.474">
+        <failure message="Unable to establish websocket connection to http://localhost:52678/devtools/browser/ee8057ba-b3cb-422d-9a2f-561a5f0c0227&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'DESKTOP-T7QCDAB', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException"><![CDATA[Given User Launch chrome Browser............................................skipped
+When User open URL "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".skipped
+And User enter email as "Admin" and password as "admin123"..................skipped
+And User click on Login.....................................................skipped
+And User should have his name in welcome note...............................skipped
+When User open URL "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSkills".skipped
+And select skill for edit...................................................skipped
+And clear the the textbox field.............................................skipped
+And enter the new data......................................................skipped
+Then Skill should be edited.................................................skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:52678/devtools/browser/ee8057ba-b3cb-422d-9a2f-561a5f0c0227
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-T7QCDAB', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:104)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:137)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:118)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:124)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:122)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+	at StepDefinations.LoginSteps.setup(LoginSteps.java:26)
+]]></failure>
+    </testcase>
+    <testcase classname="Add Edit Delete Skill" name="Delete Skill" time="5.956">
+        <failure message="Unable to establish websocket connection to http://localhost:52696/devtools/browser/59e7644c-ae55-46c4-a316-11fef23fcfe8&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'DESKTOP-T7QCDAB', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException"><![CDATA[Given User Launch chrome Browser............................................skipped
+When User open URL "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".skipped
+And Admin user should be login with valid data..............................skipped
+And User click on Login.....................................................skipped
+And User should have his name in welcome note...............................skipped
+When User open URL "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSkills".skipped
+And select skill for delete.................................................skipped
+And click on Yes delete option..............................................skipped
+Then Deleted skill succsefully..............................................skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:52696/devtools/browser/59e7644c-ae55-46c4-a316-11fef23fcfe8
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-T7QCDAB', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:104)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:137)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:118)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:124)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:122)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+	at StepDefinations.LoginSteps.setup(LoginSteps.java:26)
+]]></failure>
+    </testcase>
+</testsuite>

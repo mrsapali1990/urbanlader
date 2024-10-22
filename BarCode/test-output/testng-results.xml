@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-15T17:52:14 IST" name="Default suite" finished-at="2022-11-15T17:52:32 IST" duration-ms="17466">
+    <groups>
+    </groups>
+    <test started-at="2022-11-15T17:52:14 IST" name="Default test" finished-at="2022-11-15T17:52:32 IST" duration-ms="17466">
+      <class name="QRCode">
+        <test-method signature="testQRCode()[pri:0, instance:QRCode@f5ac9e4]" started-at="2022-11-15T17:52:14 IST" name="testQRCode" finished-at="2022-11-15T17:52:32 IST" duration-ms="17370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQRCode -->
+      </class> <!-- QRCode -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
